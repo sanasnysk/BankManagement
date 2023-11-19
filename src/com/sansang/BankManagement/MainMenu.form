@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sansang.BankManagement.MainMenu">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1924" height="1313"/>
+    </constraints>
+    <properties>
+      <preferredSize width="1920" height="1080"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="be04" class="javax.swing.JMenuBar" binding="menubar" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14529033"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="5fbe1" class="javax.swing.JMenu" binding="fileMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <focusable value="false"/>
+              <font name="Arial" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="File"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="9833f" class="javax.swing.JMenuItem" binding="customerItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <armed value="false"/>
+                  <font name="Arial" size="14" style="1"/>
+                  <text value="Customer"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="d9a8b" class="javax.swing.JMenuItem" binding="accountItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font name="Arial" size="14" style="1"/>
+                  <text value="Account"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="30807" class="javax.swing.JMenu" binding="transactionMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Transaction"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="da887" class="javax.swing.JMenuItem" binding="depositItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font name="Arial" size="14" style="1"/>
+                  <text value="Deposit"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="c65dd" class="javax.swing.JMenuItem" binding="withdrawItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font name="Arial" size="14" style="1"/>
+                  <text value="Withdraw"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="60d6d" class="javax.swing.JMenu" binding="transferMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Transfer"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="5a7" class="javax.swing.JMenuItem" binding="accountToAccountItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font name="Arial" size="14" style="1"/>
+                  <text value="Account to Account"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="9f0be" class="javax.swing.JMenu" binding="reportMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Report"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="78742" class="javax.swing.JMenuItem" binding="customerReportItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font name="Arial" size="14" style="1"/>
+                  <text value="Customer Report"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="542a4" class="javax.swing.JMenu" binding="balanceMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <foreground color="-1"/>
+              <label value="Balance"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="243da" class="javax.swing.JMenuItem" binding="balanceCheckItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font name="Arial" size="14" style="1"/>
+                  <text value="Balance Check"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="966ca" class="javax.swing.JMenu" binding="accountMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <foreground color="-1"/>
+              <label value="Account"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="3115b" class="javax.swing.JMenuItem" binding="userAccountItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font name="Arial" size="14" style="1"/>
+                  <text value="User Account"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="5de4d" class="javax.swing.JMenu" binding="exitMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <font name="Arial" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Exit"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f5f24" class="javax.swing.JMenuItem" binding="exitItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font name="Arial" size="14" style="1"/>
+                  <text value="Exit"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="ccb7d" binding="pnlImage" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ea0aa" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="image/money_2.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
